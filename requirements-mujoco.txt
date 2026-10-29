@@ -1,0 +1,3 @@
+# 与宇树官方 unitree_mujoco 示例推荐版本一致。
+mujoco==3.3.6
+Pillow==12.3.0

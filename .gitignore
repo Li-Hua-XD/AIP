@@ -4,7 +4,7 @@
 # 本地仿真环境、上游模型及运行输出
 /.venv/
 /third_party/
-/output/mujoco/
+/output/
 __pycache__/
 *.py[cod]
 MUJOCO_LOG.TXT
