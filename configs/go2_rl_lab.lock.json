@@ -1,0 +1,238 @@
+{
+  "repository": "wty-yy/go2_rl_lab",
+  "commit": "6c95d9feef4814c25eb6536e61bb38e1d1d718d4",
+  "model_repository": "wty-yy/go2_rl_gym_data",
+  "model_revision": "d1f19f0a486e171c327d8c3da2d31dba294e6586",
+  "model_prefix": "go2_rl_lab/2026-10-13_15-35-09_mixed1.3.2resume_82.5k_0.6929/exported/",
+  "files": [
+    {
+      "path": "third_party/go2_rl_lab/exported/config.yaml",
+      "url": "https://huggingface.co/wty-yy/go2_rl_gym_data/resolve/d1f19f0a486e171c327d8c3da2d31dba294e6586/go2_rl_lab/2026-10-13_15-35-09_mixed1.3.2resume_82.5k_0.6929/exported/config.yaml",
+      "sha256": "c811883b5f96cde90fdc330df7d474d37b1540bbfefe19ba733c95f60c7e5474",
+      "size": 77869
+    },
+    {
+      "path": "third_party/go2_rl_lab/exported/policy.onnx",
+      "url": "https://huggingface.co/wty-yy/go2_rl_gym_data/resolve/d1f19f0a486e171c327d8c3da2d31dba294e6586/go2_rl_lab/2026-10-13_15-35-09_mixed1.3.2resume_82.5k_0.6929/exported/policy.onnx",
+      "sha256": "6ad8e4672301be9d2e3c610b2c9a79cf2833993fd0a6b253622e96faab1a8f95",
+      "size": 6442642
+    },
+    {
+      "path": "third_party/go2_rl_lab/exported/policy.pt",
+      "url": "https://huggingface.co/wty-yy/go2_rl_gym_data/resolve/d1f19f0a486e171c327d8c3da2d31dba294e6586/go2_rl_lab/2026-10-13_15-35-09_mixed1.3.2resume_82.5k_0.6929/exported/policy.pt",
+      "sha256": "bde5210a8114aa08bb0c611e49def1482faa1b2441673e5681374c30b935e32e",
+      "size": 6399130
+    },
+    {
+      "path": "third_party/go2_rl_lab/README.md",
+      "url": "https://raw.githubusercontent.com/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/README.md",
+      "sha256": "34d9ce73bc06c316c3257d55cd0cd1ccd23b624b896bf3b4ec56ca6bf9dbb7a5",
+      "size": 15934
+    },
+    {
+      "path": "third_party/go2_rl_lab/README.zh-CN.md",
+      "url": "https://raw.githubusercontent.com/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/README.zh-CN.md",
+      "sha256": "9df4850e35001057c596480f926c31e15e91fd8f140e4decb2e2555c89b841d8",
+      "size": 15294
+    },
+    {
+      "path": "third_party/go2_rl_lab/LICENSE",
+      "url": "https://raw.githubusercontent.com/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/LICENSE",
+      "sha256": "4ea44fef12365648550aab7f5f843930612f6378ea01608bc5d8778ff2cc05c4",
+      "size": 14440
+    },
+    {
+      "path": "third_party/go2_rl_lab/AGENTS.md",
+      "url": "https://raw.githubusercontent.com/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/AGENTS.md",
+      "sha256": "3588f81ae499af33cd77c302b181981c799ab014b42504aee1ec109db9302d53",
+      "size": 11055
+    },
+    {
+      "path": "third_party/go2_rl_lab/deploy/deploy_mujoco/config.yaml",
+      "url": "https://raw.githubusercontent.com/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/deploy/deploy_mujoco/config.yaml",
+      "sha256": "2debbfa70b38f0188743c8e68e6e600064cace459afc22af4ca4c26c7f2267ca",
+      "size": 2115
+    },
+    {
+      "path": "third_party/go2_rl_lab/deploy/deploy_mujoco/deploy_go2.py",
+      "url": "https://raw.githubusercontent.com/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/deploy/deploy_mujoco/deploy_go2.py",
+      "sha256": "434cc36e45331e111a73cb94f134a9a9273e75774faf41152260865d86631af9",
+      "size": 17831
+    },
+    {
+      "path": "third_party/go2_rl_lab/deploy/deploy_mujoco/utils/mujoco.py",
+      "url": "https://raw.githubusercontent.com/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/deploy/deploy_mujoco/utils/mujoco.py",
+      "sha256": "dc5bc7b8dc88a4bb008eb676558e1b48d93dd0c80848b79dceeecb2778ec1645",
+      "size": 8108
+    },
+    {
+      "path": "third_party/go2_rl_lab/source/rsl_rl/rsl_rl/moe_cts/exporter.py",
+      "url": "https://raw.githubusercontent.com/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/source/rsl_rl/rsl_rl/moe_cts/exporter.py",
+      "sha256": "0f8a69d501fc58795616cf20c8be95472304b86e3ac7ea2968a366ce4c34eb5e",
+      "size": 8138
+    },
+    {
+      "path": "third_party/go2_rl_lab/source/rsl_rl/LICENSE",
+      "url": "https://raw.githubusercontent.com/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/source/rsl_rl/LICENSE",
+      "sha256": "df2efcc3c662d55916f14bafc2ac2b68adae43ae3712c25ed0f20d2a871ee00a",
+      "size": 2899
+    },
+    {
+      "path": "third_party/go2_rl_lab/deploy/deploy_mujoco/assets/cross_slope.xml",
+      "url": "https://raw.githubusercontent.com/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/deploy/deploy_mujoco/assets/cross_slope.xml",
+      "sha256": "f3b2f330897f219df6b243a8226ff6b4f2e9f9fee8f8d140c7b24dbdc7d4b941",
+      "size": 5103
+    },
+    {
+      "path": "third_party/go2_rl_lab/deploy/deploy_mujoco/assets/cross_stairs.xml",
+      "url": "https://raw.githubusercontent.com/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/deploy/deploy_mujoco/assets/cross_stairs.xml",
+      "sha256": "1215c8a3013f175472d2b7c08357d4958fe79bdfdc09de4d1923d7c8050477fd",
+      "size": 11803
+    },
+    {
+      "path": "third_party/go2_rl_lab/deploy/deploy_mujoco/assets/flat.xml",
+      "url": "https://raw.githubusercontent.com/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/deploy/deploy_mujoco/assets/flat.xml",
+      "sha256": "0ad2696c6c53701dbba34f1a9a2158e1c1e4f491eb114263b0f86ecadc9e40ac",
+      "size": 855
+    },
+    {
+      "path": "third_party/go2_rl_lab/deploy/deploy_mujoco/assets/go2.xml",
+      "url": "https://raw.githubusercontent.com/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/deploy/deploy_mujoco/assets/go2.xml",
+      "sha256": "baad6bab8c359d5ac040c0eec7d5235574d60e748d54b121a08512e09816f829",
+      "size": 11561
+    },
+    {
+      "path": "third_party/go2_rl_lab/deploy/deploy_mujoco/assets/go2/base_0.obj",
+      "url": "https://media.githubusercontent.com/media/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/deploy/deploy_mujoco/assets/go2/base_0.obj",
+      "sha256": "8cdc53719002a5ee737d867904e534a6d6fa930b616bdcc1b3131e577d4e46c0",
+      "size": 1330465
+    },
+    {
+      "path": "third_party/go2_rl_lab/deploy/deploy_mujoco/assets/go2/base_1.obj",
+      "url": "https://media.githubusercontent.com/media/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/deploy/deploy_mujoco/assets/go2/base_1.obj",
+      "sha256": "39d2f4724ff64dd5a0640c308fd98902a2946660a8d033ec8dbf368fd5af0dd6",
+      "size": 811791
+    },
+    {
+      "path": "third_party/go2_rl_lab/deploy/deploy_mujoco/assets/go2/base_2.obj",
+      "url": "https://media.githubusercontent.com/media/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/deploy/deploy_mujoco/assets/go2/base_2.obj",
+      "sha256": "29cae463f95d678e4ede863c36c9b19b0d356b8340412add10670d70bdcc3095",
+      "size": 294090
+    },
+    {
+      "path": "third_party/go2_rl_lab/deploy/deploy_mujoco/assets/go2/base_3.obj",
+      "url": "https://media.githubusercontent.com/media/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/deploy/deploy_mujoco/assets/go2/base_3.obj",
+      "sha256": "f51ba43bf300e68957a0c1aa83eaf3e4926f4ac7e64a0d6c33ae5d21fcbcf5f6",
+      "size": 379093
+    },
+    {
+      "path": "third_party/go2_rl_lab/deploy/deploy_mujoco/assets/go2/base_4.obj",
+      "url": "https://media.githubusercontent.com/media/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/deploy/deploy_mujoco/assets/go2/base_4.obj",
+      "sha256": "49ddec0129546e5dd2075d5beacf7f207baa2860aeff7626818e64d2efbf3821",
+      "size": 7776234
+    },
+    {
+      "path": "third_party/go2_rl_lab/deploy/deploy_mujoco/assets/go2/calf_0.obj",
+      "url": "https://media.githubusercontent.com/media/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/deploy/deploy_mujoco/assets/go2/calf_0.obj",
+      "sha256": "4a818cd563c5b7e2a271504442d05fd777d38cbaa028d4a10ad29c9f87bb355e",
+      "size": 877174
+    },
+    {
+      "path": "third_party/go2_rl_lab/deploy/deploy_mujoco/assets/go2/calf_1.obj",
+      "url": "https://media.githubusercontent.com/media/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/deploy/deploy_mujoco/assets/go2/calf_1.obj",
+      "sha256": "51950c3a153ae3208592df86ea11c9d6756f8f645ebca5caf6910c61aeb03817",
+      "size": 326865
+    },
+    {
+      "path": "third_party/go2_rl_lab/deploy/deploy_mujoco/assets/go2/calf_mirror_0.obj",
+      "url": "https://media.githubusercontent.com/media/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/deploy/deploy_mujoco/assets/go2/calf_mirror_0.obj",
+      "sha256": "6dc0406207a1c08a5953fd5962aca1a270fd06593d30d100205e05c1b32d4af2",
+      "size": 876538
+    },
+    {
+      "path": "third_party/go2_rl_lab/deploy/deploy_mujoco/assets/go2/calf_mirror_1.obj",
+      "url": "https://media.githubusercontent.com/media/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/deploy/deploy_mujoco/assets/go2/calf_mirror_1.obj",
+      "sha256": "f84f5af90b914633165beb3a5493ee499169144c5797dcf04c6eb5842f74b31a",
+      "size": 327261
+    },
+    {
+      "path": "third_party/go2_rl_lab/deploy/deploy_mujoco/assets/go2/foot.obj",
+      "url": "https://media.githubusercontent.com/media/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/deploy/deploy_mujoco/assets/go2/foot.obj",
+      "sha256": "df9e78a7c0110d02557439010f2a5f11f0ec4fd907b32704145dbd6aa7affc0b",
+      "size": 1144729
+    },
+    {
+      "path": "third_party/go2_rl_lab/deploy/deploy_mujoco/assets/go2/hip_0.obj",
+      "url": "https://media.githubusercontent.com/media/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/deploy/deploy_mujoco/assets/go2/hip_0.obj",
+      "sha256": "cc29932ab4d251ce3f72389ec4c1f757e44eee138b87e772b648c2bc76b506cd",
+      "size": 2863864
+    },
+    {
+      "path": "third_party/go2_rl_lab/deploy/deploy_mujoco/assets/go2/hip_1.obj",
+      "url": "https://media.githubusercontent.com/media/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/deploy/deploy_mujoco/assets/go2/hip_1.obj",
+      "sha256": "3fd5bd9b2ef6abe622c0739d3c67eaa1679b19b47132951972c4892a779ea7cf",
+      "size": 2767918
+    },
+    {
+      "path": "third_party/go2_rl_lab/deploy/deploy_mujoco/assets/go2/thigh_0.obj",
+      "url": "https://media.githubusercontent.com/media/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/deploy/deploy_mujoco/assets/go2/thigh_0.obj",
+      "sha256": "bb3edfe6a7b04f4f4dff1ce7b05d426ddce941e276cc6372fb542055893c71ec",
+      "size": 2841868
+    },
+    {
+      "path": "third_party/go2_rl_lab/deploy/deploy_mujoco/assets/go2/thigh_1.obj",
+      "url": "https://media.githubusercontent.com/media/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/deploy/deploy_mujoco/assets/go2/thigh_1.obj",
+      "sha256": "3a631822f9f7d2114b1b79dcdff5abf95103630abb7d91d1f3b8b18117132ed2",
+      "size": 1491320
+    },
+    {
+      "path": "third_party/go2_rl_lab/deploy/deploy_mujoco/assets/go2/thigh_mirror_0.obj",
+      "url": "https://media.githubusercontent.com/media/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/deploy/deploy_mujoco/assets/go2/thigh_mirror_0.obj",
+      "sha256": "07abaedce761f1dd48647384ac14ba1959276bc78d5a2a62051e8f1c6093933b",
+      "size": 2817674
+    },
+    {
+      "path": "third_party/go2_rl_lab/deploy/deploy_mujoco/assets/go2/thigh_mirror_1.obj",
+      "url": "https://media.githubusercontent.com/media/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/deploy/deploy_mujoco/assets/go2/thigh_mirror_1.obj",
+      "sha256": "db984a3e983eabbc9b38183427cca9ab0bb3bdb049f9eab030e06edda36579d6",
+      "size": 1482261
+    },
+    {
+      "path": "third_party/go2_rl_lab/deploy/deploy_mujoco/assets/imgs/label_1.png",
+      "url": "https://media.githubusercontent.com/media/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/deploy/deploy_mujoco/assets/imgs/label_1.png",
+      "sha256": "5b70b5cbd2191730ab9e33580c9ff6ce5518f19b5c71ee4a0d5a7a0cdd69b140",
+      "size": 2201
+    },
+    {
+      "path": "third_party/go2_rl_lab/deploy/deploy_mujoco/assets/imgs/label_10.png",
+      "url": "https://media.githubusercontent.com/media/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/deploy/deploy_mujoco/assets/imgs/label_10.png",
+      "sha256": "74c4ef761389886f034b2752806ab9acadacb7768c1c263c71a9cff50f017527",
+      "size": 2655
+    },
+    {
+      "path": "third_party/go2_rl_lab/deploy/deploy_mujoco/assets/imgs/label_4.png",
+      "url": "https://media.githubusercontent.com/media/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/deploy/deploy_mujoco/assets/imgs/label_4.png",
+      "sha256": "5969c2ea50a92b6ce595f7be33061b4ca412c036f1ba898dc67e6e6d16f7784d",
+      "size": 2423
+    },
+    {
+      "path": "third_party/go2_rl_lab/deploy/deploy_mujoco/assets/imgs/label_7.png",
+      "url": "https://media.githubusercontent.com/media/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/deploy/deploy_mujoco/assets/imgs/label_7.png",
+      "sha256": "fbd2c8e991414371f4eb719667d34986e7b203dcb614bd59e0879258a916079d",
+      "size": 2272
+    },
+    {
+      "path": "third_party/go2_rl_lab/deploy/deploy_mujoco/assets/race_track.xml",
+      "url": "https://raw.githubusercontent.com/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/deploy/deploy_mujoco/assets/race_track.xml",
+      "sha256": "b5f5d9995429f71e38b7b37e98588c7ac8eb035a87ea1a62931fa91d0e5cc79c",
+      "size": 48500
+    },
+    {
+      "path": "third_party/go2_rl_lab/deploy/deploy_mujoco/assets/stairs.xml",
+      "url": "https://raw.githubusercontent.com/wty-yy/go2_rl_lab/6c95d9feef4814c25eb6536e61bb38e1d1d718d4/deploy/deploy_mujoco/assets/stairs.xml",
+      "sha256": "d3e43ab7e11bf7a7320c45a5cbd42fd5991bca813452cb026da28cc8cf5ce922",
+      "size": 18890
+    }
+  ],
+  "license": "MIT for project-owned code and model card; upstream notices are retained in downloaded LICENSE."
+}

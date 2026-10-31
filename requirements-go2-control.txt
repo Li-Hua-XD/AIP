@@ -1,0 +1,6 @@
+# CPU 推理，无需 CUDA、PyTorch、Isaac Lab 或 ROS 2。
+-r requirements-mujoco.lock.txt
+onnxruntime==1.31.1
+flatbuffers==25.12.19
+packaging==26.3
+protobuf==7.36.2

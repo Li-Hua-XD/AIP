@@ -1,40 +1,254 @@
 {
   "source": "docs/references/废墟智援_赛题规则文档.pdf，第 6 页（正文及图内标注）",
   "coordinate_system": "米；西南角为 (0,0)，x 向右，y 向图上方，z 向上",
-  "arena": {"width": 12.0, "depth": 10.0, "wall_height": 0.6, "wall_thickness": 0.16},
-  "surface_friction": [0.9, 0.02, 0.002],
-  "start_divider": {"points": [[1.66,1.7],[1.9,1.1],[2.45,0.55],[3.05,0.06]], "wall_height": 0.6, "wall_thickness": 0.12},
-  "start": {"center": [1.0, 0.9], "size": [1.5, 1.5], "yaw_deg": 90},
-  "finish": {"center": [10.8, 8.7], "size": [2.0, 2.0]},
-  "ramp": {
-    "width": 1.2, "angle_deg": 12.0, "height": 0.45,
-    "center_x": 1.0, "start_y": 1.7, "turn_y": 7.4,
-    "turn_radius": 1.0, "ascent_start_y": 4.7, "exit_x": 4.25,
-    "wall_height": 0.6, "wall_thickness": 0.12
+  "arena": {
+    "width": 12.0,
+    "depth": 10.0,
+    "wall_height": 0.6,
+    "wall_thickness": 0.16
   },
-  "s_bend": {"width": 1.2, "radius": 1.1, "wall_height": 0.6, "wall_thickness": 0.12},
-  "dead_end": {"center_x": 3.15, "entrance_y": 3.9, "clear_width": 1.2, "clear_length": 2.0, "wall_height": 0.6, "wall_thickness": 0.12},
-  "rubble": {
-    "height_range": [0.04, 0.12], "seed": 42, "rocks_per_pile": 24,
-    "piles": [
-      {"center": [2.65, 7.1], "radius": [0.48, 0.45]},
-      {"center": [4.9, 9.48], "radius": [0.55, 0.27]},
-      {"center": [6.25, 1.55], "radius": [0.6, 0.5]},
-      {"center": [7.25, 3.2], "radius": [0.7, 0.55]},
-      {"center": [10.35, 1.35], "radius": [0.75, 0.6]}
+  "surface_friction": [
+    0.9,
+    0.02,
+    0.002
+  ],
+  "start_divider": {
+    "points": [
+      [
+        1.66,
+        1.7
+      ],
+      [
+        1.9,
+        1.1
+      ],
+      [
+        2.45,
+        0.55
+      ],
+      [
+        3.05,
+        0.06
+      ]
+    ],
+    "wall_height": 0.6,
+    "wall_thickness": 0.12
+  },
+  "start": {
+    "center": [
+      1.0,
+      0.9
+    ],
+    "size": [
+      1.5,
+      1.5
+    ],
+    "yaw_deg": 90
+  },
+  "finish": {
+    "center": [
+      10.8,
+      8.7
+    ],
+    "size": [
+      2.0,
+      2.0
     ]
   },
-  "tunnel_narrow": {"center": [8.8, 8.25], "clear_width": 0.2, "clear_height": 0.6, "length": 1.5, "wall_thickness": 0.12},
-  "tunnel_round": {"center": [8.45, 5.35], "inner_diameter": 1.0, "length": 1.9, "shell_thickness": 0.08, "segments": 48},
-  "tunnel_box": {"center": [10.8, 6.05], "clear_width": 1.2, "clear_height": 0.6, "length": 1.5, "wall_thickness": 0.12},
-  "finish_partition": {"x": 9.55, "y": 6.8, "wall_height": 0.6, "wall_thickness": 0.12},
-  "route_waypoints": [[1.0,0.9],[1.0,4.7],[1.0,7.4],[2.0,8.4],[4.25,8.4],[5.35,7.3],[4.25,6.2],[3.15,5.1],[3.15,4.5],[5.0,4.5],[7.2,5.35],[9.55,5.35],[10.8,5.0],[10.8,7.2],[10.8,8.7]],
+  "ramp": {
+    "width": 1.2,
+    "angle_deg": 12.0,
+    "height": 0.45,
+    "center_x": 1.0,
+    "start_y": 1.7,
+    "turn_y": 7.4,
+    "turn_radius": 1.0,
+    "ascent_start_y": 4.7,
+    "exit_x": 4.25,
+    "wall_height": 0.6,
+    "wall_thickness": 0.12
+  },
+  "s_bend": {
+    "width": 1.2,
+    "radius": 1.1,
+    "wall_height": 0.6,
+    "wall_thickness": 0.12
+  },
+  "dead_end": {
+    "center_x": 3.15,
+    "entrance_y": 3.9,
+    "clear_width": 1.2,
+    "clear_length": 2.0,
+    "wall_height": 0.6,
+    "wall_thickness": 0.12
+  },
+  "rubble": {
+    "height_range": [
+      0.04,
+      0.12
+    ],
+    "seed": 42,
+    "rocks_per_pile": 48,
+    "piles": [
+      {
+        "center": [
+          2.65,
+          7.1
+        ],
+        "radius": [
+          0.48,
+          0.45
+        ]
+      },
+      {
+        "center": [
+          4.9,
+          9.48
+        ],
+        "radius": [
+          0.55,
+          0.27
+        ]
+      },
+      {
+        "center": [
+          6.25,
+          1.55
+        ],
+        "radius": [
+          0.6,
+          0.5
+        ]
+      },
+      {
+        "center": [
+          7.25,
+          3.2
+        ],
+        "radius": [
+          0.7,
+          0.55
+        ]
+      },
+      {
+        "center": [
+          10.35,
+          1.35
+        ],
+        "radius": [
+          0.75,
+          0.6
+        ]
+      }
+    ]
+  },
+  "tunnel_narrow": {
+    "center": [
+      8.8,
+      8.25
+    ],
+    "clear_width": 0.2,
+    "clear_height": 0.6,
+    "length": 1.5,
+    "wall_thickness": 0.12
+  },
+  "tunnel_round": {
+    "center": [
+      8.45,
+      5.35
+    ],
+    "inner_diameter": 1.0,
+    "length": 1.9,
+    "shell_thickness": 0.08,
+    "segments": 128
+  },
+  "tunnel_box": {
+    "center": [
+      10.8,
+      6.05
+    ],
+    "clear_width": 1.2,
+    "clear_height": 0.6,
+    "length": 1.5,
+    "wall_thickness": 0.12
+  },
+  "finish_partition": {
+    "x": 9.55,
+    "y": 6.8,
+    "wall_height": 0.6,
+    "wall_thickness": 0.12
+  },
+  "route_waypoints": [
+    [
+      1.0,
+      0.9
+    ],
+    [
+      1.0,
+      4.7
+    ],
+    [
+      1.0,
+      7.4
+    ],
+    [
+      2.0,
+      8.4
+    ],
+    [
+      4.25,
+      8.4
+    ],
+    [
+      5.35,
+      7.3
+    ],
+    [
+      4.25,
+      6.2
+    ],
+    [
+      3.15,
+      5.1
+    ],
+    [
+      3.15,
+      4.5
+    ],
+    [
+      5.0,
+      4.5
+    ],
+    [
+      7.2,
+      5.35
+    ],
+    [
+      9.55,
+      5.35
+    ],
+    [
+      10.8,
+      5.0
+    ],
+    [
+      10.8,
+      7.2
+    ],
+    [
+      10.8,
+      8.7
+    ]
+  ],
   "assumptions": [
     "场地 12×10 米按图中横向 12 米、纵向 10 米放置。示意图为透视图，未提供精确坐标；本文件中的区域坐标为按相对位置重建的开发用布置。",
     "S 弯标注半径 1.0–1.2 米，取中心线半径 1.1 米；圆管长度 1.8–2.0 米，取 1.9 米。",
     "隧道 3 的 1.2×0.6×1.5 米按净宽×净高×长度解释；需以赛题组场地配置表确认。",
     "墙高、墙厚、坡顶平台长度、隧道 1 高度/长度、摩擦系数和乱石精确形状未给出，均为可调建模假设。",
     "五处乱石的位置参考示意图；每个石块顶面高度限制在 4–12 厘米，不将透视图中的视觉堆高当作官方高度。",
-    "本场景不包含尚未明确尺寸/轨迹的动态障碍、生命目标和传感器布置。"
+    "本场景不包含尚未明确尺寸/轨迹的动态障碍、生命目标和传感器布置。",
+    "五处主石堆每处 48 块为建模取值；不规则碎石凸起严格以地面为基准限制在 4–12 厘米。",
+    "坡道侧墙砌筑至地面，三条隧道均保持双端内腔贯通；隧道 1 净宽仍为 0.20 米，应识别并放弃。",
+    "圆管采用 128 片外切凸壳，内切净径为 1 米，最大径向离散误差小于 0.151 毫米；只有渲染底边上移 0.05 毫米以避免共面闪烁，物理尺寸不变。"
   ]
 }
