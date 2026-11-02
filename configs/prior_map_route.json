@@ -1,0 +1,26 @@
+{
+  "navigation_mode": "prior_map",
+  "goal_information": "goal_provided",
+  "map": "output/prior_map/ruins_rescue.npz",
+  "start": [1.0, 0.9],
+  "goal": [10.8, 8.7],
+  "finish_tolerance_m": 0.35,
+  "lookahead_default_m": 0.45,
+  "legs": [
+    {"name": "01 起点→坡道底", "to": [1.0, 4.4], "speed": 0.5, "lookahead": 0.5},
+    {"name": "02 上坡", "to": [1.0, 7.3], "speed": 0.45, "lookahead": 0.45},
+    {"name": "03 坡顶转弯", "to": [1.35, 8.15], "speed": 0.3, "lookahead": 0.3},
+    {"name": "04 坡顶平台", "to": [2.0, 8.4], "speed": 0.3, "lookahead": 0.3},
+    {"name": "05 下坡", "to": [4.05, 8.4], "speed": 0.45, "lookahead": 0.45},
+    {"name": "06 S 弯第一段", "to": [5.3, 7.35], "speed": 0.3, "lookahead": 0.32},
+    {"name": "07 S 弯出口", "to": [4.2, 6.25], "speed": 0.3, "lookahead": 0.32},
+    {"name": "08 接近死胡同", "to": [3.15, 4.35], "speed": 0.35, "lookahead": 0.35},
+    {"name": "09 进入死胡同", "to": [3.15, 3.25], "speed": 0.22, "lookahead": 0.25, "return_to_start": true},
+    {"name": "10 绕过死胡同", "to": [5.0, 4.5], "speed": 0.4, "lookahead": 0.45},
+    {"name": "11 前往圆管", "to": [7.15, 5.35], "speed": 0.5, "lookahead": 0.5},
+    {"name": "12 穿圆管", "to": [9.45, 5.35], "speed": 0.35, "lookahead": 0.35},
+    {"name": "13 转向方涵", "to": [10.8, 5.05], "speed": 0.3, "lookahead": 0.3},
+    {"name": "14 穿方涵", "to": [10.8, 6.85], "speed": 0.35, "lookahead": 0.35},
+    {"name": "15 到达终点", "to": [10.8, 8.7], "speed": 0.4, "lookahead": 0.4}
+  ]
+}
